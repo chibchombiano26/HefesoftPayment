@@ -2,6 +2,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var stripe = require('stripe')('sk_test_lf2op9O6fVZYvWs4v3rpjGQF');
+var path = require('path');
 
 var app = express();
 app.use(bodyParser());
